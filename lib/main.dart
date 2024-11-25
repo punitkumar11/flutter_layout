@@ -34,7 +34,11 @@ class MainApp extends StatelessWidget {
             ],
           ),
         ),
-        drawer: Drawer(),
+        drawer: const Drawer(),
+        floatingActionButton: const FloatingActionButton(
+          onPressed: null,
+          child: Icon(Icons.notification_add),
+        ),
       ),
     );
   }
